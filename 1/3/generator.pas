@@ -2,14 +2,19 @@ program generator;
 uses Math;
 
 
-procedure Generate();
+procedure Generate(var arr: Array of Integer);
 var i: Integer;
 begin
-  Randomize;
-  for i := 1 to 50 do Write(RandomRange(0,101), ', ');
+    Randomize;
+    for i := 0 to 49 do arr[i] := RandomRange(0,101);
 end;
 
+var
+    i: Integer;
+    arr: Array[0..49] of Integer;
 begin
-Generate();
-WriteLn();
+
+    Generate(arr);
+    for i := 0 to 49 do Write(arr[i], ', ');
+    WriteLn();
 end.
