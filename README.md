@@ -6,7 +6,7 @@ Object design course 2024/25
 
 :white_check_mark: 3.5 wymaganie 2 [Link do pliku 2](https://github.com/Janszczyrek/object_design/blob/master/1/35/sort.pas)
 
-:white_check_mark: 4.0 wymaganie 3 [Link do pliku 3]https://github.com/Janszczyrek/object_design/blob/master/1/4/generator.pas)
+:white_check_mark: 4.0 wymaganie 3 [Link do pliku 3](https://github.com/Janszczyrek/object_design/blob/master/1/4/generator.pas)
 
 :x: 4.5 wymaganie 4
 
