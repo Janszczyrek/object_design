@@ -23,3 +23,15 @@ Object design course 2024/25
 :x: 4.5 wymaganie 4
 
 :x: 5.0 wymaganie 5
+
+**Zadanie 3** Wzorce kreacyjne
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/453a02693480f845fbad3cb644753559f22836c4)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 2](https://github.com/Janszczyrek/object_design/commit/517d78b89aeefa385c8ef8f20ad3a9430b241115)
+
+:white_check_mark: 4.0 wymaganie 3 [Link do commita 3](https://github.com/Janszczyrek/object_design/commit/0249fcd7aff5b9f1fd6bad993ac29978150d534d)
+
+:white_check_mark: 4.5 wymaganie 4 [Link do commita 4](https://github.com/Janszczyrek/object_design/commit/8facae115823436cf3711754d0407748756bb5fa)
+
+:white_check_mark: 5.0 wymaganie 5 [Link do commita 5](https://github.com/Janszczyrek/object_design/commit/45bc337389c7f09ca8317d0f7a9c48e27b05fb38)
