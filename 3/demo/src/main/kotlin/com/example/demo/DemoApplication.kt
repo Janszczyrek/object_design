@@ -6,12 +6,15 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.bind.annotation.CookieValue
 import jakarta.servlet.http.Cookie
 import jakarta.servlet.http.HttpServletResponse
 import jakarta.servlet.http.HttpServletRequest
 import Product
+import AuthService
+import User
 
 @SpringBootApplication
 class DemoApplication
@@ -30,8 +33,22 @@ class ProductController {
 	)
 
     @GetMapping("/products")
-    fun sayHello(): List<Product> {
-		return products
+    fun getProducts(@CookieValue("token") token: String?, response: HttpServletResponse): List<Product> {
+		if (token != null && AuthService.checkToken(token)) {
+			System.out.println("Token is valid")
+			return products
+		}
+		response.status = HttpServletResponse.SC_FOUND
+		response.setHeader("Location", "/login.html")
+		return emptyList()
     }
+	@PostMapping("/auth")
+	fun tryAuthenticate(@RequestParam("username") username: String, @RequestParam("password") password: String, response: HttpServletResponse): String {
+		if (username.isEmpty() || password.isEmpty()) {
+			return "Username and password cannot be empty"
+		}
+		val user = User(username, password)
+		return AuthService.tryAuthenticate(user, response)
+	}
 
 }

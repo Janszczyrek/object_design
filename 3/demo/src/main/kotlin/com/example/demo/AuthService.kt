@@ -6,7 +6,6 @@ import User
 object AuthService {
     var authenticatedUsers: MutableSet<String> = mutableSetOf()
     fun authenticate(username: String, password: String): String? {
-        // Simulate authentication logic
         if( username == "user" && password == "password") {
             val token = username.hashCode().toString()
             authenticatedUsers.add(token)
@@ -24,8 +23,12 @@ object AuthService {
             cookie.path = "/"
             cookie.isHttpOnly = true
             response.addCookie(cookie)
-            "Authentication successful"
+            response.status = HttpServletResponse.SC_FOUND
+            response.setHeader("Location", "/products")
+            "Authenticated successfully"
 		} else {
+            response.status = HttpServletResponse.SC_FOUND
+            response.setHeader("Location", "/login.html")
 			"Authentication failed"
 		}
 	}
