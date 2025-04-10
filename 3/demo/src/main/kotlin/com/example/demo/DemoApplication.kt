@@ -12,9 +12,7 @@ import org.springframework.web.bind.annotation.CookieValue
 import jakarta.servlet.http.Cookie
 import jakarta.servlet.http.HttpServletResponse
 import jakarta.servlet.http.HttpServletRequest
-import Product
-import AuthService
-import User
+import org.springframework.beans.factory.annotation.Autowired
 
 @SpringBootApplication
 class DemoApplication
@@ -25,7 +23,7 @@ fun main(args: Array<String>) {
 
 
 @RestController
-class ProductController {
+class ProductController @Autowired constructor(private val authService: AuthService) {
 	private val products = listOf(
 		Product(1, "Product 1", "Description 1", 10.0),
 		Product(2, "Product 2", "Description 2", 20.0),
@@ -34,7 +32,7 @@ class ProductController {
 
     @GetMapping("/products")
     fun getProducts(@CookieValue("token") token: String?, response: HttpServletResponse): List<Product> {
-		if (token != null && AuthService.checkToken(token)) {
+		if (token != null && authService.checkToken(token)) {
 			System.out.println("Token is valid")
 			return products
 		}
@@ -48,7 +46,7 @@ class ProductController {
 			return "Username and password cannot be empty"
 		}
 		val user = User(username, password)
-		return AuthService.tryAuthenticate(user, response)
+		return authService.tryAuthenticate(user, response)
 	}
 
 }

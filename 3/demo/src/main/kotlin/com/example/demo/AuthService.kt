@@ -1,8 +1,11 @@
+package com.example.demo
+
 import jakarta.servlet.http.Cookie
 import jakarta.servlet.http.HttpServletResponse
 import jakarta.servlet.http.HttpServletRequest
-import User
+import org.springframework.stereotype.Service
 
+@Service
 object AuthService {
     var authenticatedUsers: MutableSet<String> = mutableSetOf()
     fun authenticate(username: String, password: String): String? {
