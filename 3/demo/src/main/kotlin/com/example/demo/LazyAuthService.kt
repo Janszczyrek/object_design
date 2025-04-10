@@ -4,12 +4,14 @@ import jakarta.servlet.http.Cookie
 import jakarta.servlet.http.HttpServletResponse
 import jakarta.servlet.http.HttpServletRequest
 import org.springframework.stereotype.Service
+import org.springframework.context.annotation.Lazy
 
 @Service
-object AuthService {
+@Lazy
+class LazyAuthService {
 
     init {
-        System.out.println("AuthService is loaded")
+        System.out.println("LazyAuthService is loaded")
     }
 
     var authenticatedUsers: MutableSet<String> = mutableSetOf()
@@ -25,7 +27,7 @@ object AuthService {
         return authenticatedUsers.contains(token)
     }
     fun tryAuthenticate(user: User, response: HttpServletResponse): String {
-		val token = AuthService.authenticate(user.username, user.password)
+		val token = authenticate(user.username, user.password)
 		return if (token != null) {
 			val cookie = Cookie("token", token)
             cookie.path = "/"
