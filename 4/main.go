@@ -5,8 +5,10 @@ import (
 )
 
 func main() {
+	weatherController := NewWeatherController()
+
 	e := echo.New()
-	e.GET("/weather",getWeather)
-	e.POST("/weather",getWeather)
+	e.GET("/weather",weatherController.getWeather)
+	e.POST("/weather",weatherController.getWeather)
 	e.Logger.Fatal(e.Start(":1323"))
 }
