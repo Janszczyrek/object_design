@@ -35,3 +35,15 @@ Object design course 2024/25
 :white_check_mark: 4.5 wymaganie 4 [Link do commita 4](https://github.com/Janszczyrek/object_design/commit/8facae115823436cf3711754d0407748756bb5fa)
 
 :white_check_mark: 5.0 wymaganie 5 [Link do commita 5](https://github.com/Janszczyrek/object_design/commit/45bc337389c7f09ca8317d0f7a9c48e27b05fb38)
+
+**Zadanie 4** Wzorce strukturalne
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/20c5557516c449666a5ff42e877133ab1b16fd2b)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 2](https://github.com/Janszczyrek/object_design/commit/8dee89b5fd69f6cc7c2f008873b29c8c66a4ed05)
+
+:white_check_mark: 4.0 wymaganie 3 [Link do commita 3](https://github.com/Janszczyrek/object_design/commit/ed7f170f953cced6e745c4a79f20837116455a65)
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
