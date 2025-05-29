@@ -107,3 +107,21 @@ https://github.com/user-attachments/assets/75ba8f12-3665-4e69-b822-8b7707a4ddbb
 
 https://github.com/user-attachments/assets/f4d5670e-59d4-4a28-b8df-2df29d446a6a
 
+
+
+**Zadanie 7** Antywzorce
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/bc6286aa0304a7d2b0a75b05dbc9efc55c0949e9)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/bc6286aa0304a7d2b0a75b05dbc9efc55c0949e9)
+
+:x: 4.0 wymaganie 3
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
+
+https://github.com/user-attachments/assets/89df8fc6-dce0-4801-bda7-237868ac5320
+
+
