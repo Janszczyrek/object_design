@@ -12,6 +12,11 @@ Object design course 2024/25
 
 :x: 5.0 wymaganie 5 
 
+
+
+https://github.com/user-attachments/assets/8fcf7496-86ed-46a2-af6f-7aefd3d6bdfe
+
+
 **Zadanie 2** Symfony
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/dd828a49ce217fae3e16eb8138aa8654bead495d)
@@ -23,6 +28,12 @@ Object design course 2024/25
 :x: 4.5 wymaganie 4
 
 :x: 5.0 wymaganie 5
+
+
+
+https://github.com/user-attachments/assets/5a6f5dbf-f9c0-4751-9768-a9ac6df3454a
+
+
 
 **Zadanie 3** Wzorce kreacyjne
 
@@ -36,6 +47,12 @@ Object design course 2024/25
 
 :white_check_mark: 5.0 wymaganie 5 [Link do commita 5](https://github.com/Janszczyrek/object_design/commit/45bc337389c7f09ca8317d0f7a9c48e27b05fb38)
 
+
+
+https://github.com/user-attachments/assets/09fbf5ee-6d30-4714-8db0-ea05e9d2577c
+
+
+
 **Zadanie 4** Wzorce strukturalne
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/20c5557516c449666a5ff42e877133ab1b16fd2b)
@@ -47,6 +64,13 @@ Object design course 2024/25
 :x: 4.5 wymaganie 4
 
 :x: 5.0 wymaganie 5
+
+
+
+
+https://github.com/user-attachments/assets/c39e0405-6d8d-4ce2-a63b-b044a6a983e8
+
+
 
 **Zadanie 5** Wzorce behawioralne
 
@@ -60,6 +84,12 @@ Object design course 2024/25
 
 :white_check_mark: 5.0 wymaganie 5 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/bf1617c5d4c914dfe52e86f2401ac36ba1342be1)
 
+
+
+https://github.com/user-attachments/assets/75ba8f12-3665-4e69-b822-8b7707a4ddbb
+
+
+
 **Zadanie 6** Zapaszki
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/frontend_5/commit/38a60b1b46e32903504889c72261b01dc7d0e450)
@@ -71,3 +101,9 @@ Object design course 2024/25
 :white_check_mark: 4.5 wymaganie 4 [Link do commita 2](https://github.com/Janszczyrek/frontend_5/commit/d0a08580cd16486d514605523b587b7e0f6c1be7)
 
 :white_check_mark: 5.0 wymaganie 5 [Link do commita 2](https://github.com/Janszczyrek/frontend_5/commit/d0a08580cd16486d514605523b587b7e0f6c1be7)
+
+
+
+
+https://github.com/user-attachments/assets/f4d5670e-59d4-4a28-b8df-2df29d446a6a
+
