@@ -125,3 +125,21 @@ https://github.com/user-attachments/assets/f4d5670e-59d4-4a28-b8df-2df29d446a6a
 https://github.com/user-attachments/assets/89df8fc6-dce0-4801-bda7-237868ac5320
 
 
+**Zadanie 8** Testy
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/0051c841361cecb4bb97c4615fa26aabf2ae7e66) [Link do commita 2](https://github.com/Janszczyrek/object_design/commit/ac686e258611a4650899b3aa865399e5ffcc0e14)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/0051c841361cecb4bb97c4615fa26aabf2ae7e66) [Link do commita 2](https://github.com/Janszczyrek/object_design/commit/ac686e258611a4650899b3aa865399e5ffcc0e14)
+
+
+:x: 4.0 wymaganie 3
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
+
+https://github.com/user-attachments/assets/88efcce5-8366-4299-9ca0-a1696b39529a
+
+
+
