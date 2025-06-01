@@ -142,4 +142,21 @@ https://github.com/user-attachments/assets/89df8fc6-dce0-4801-bda7-237868ac5320
 https://github.com/user-attachments/assets/88efcce5-8366-4299-9ca0-a1696b39529a
 
 
+**Zadanie 9** Mobile first
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/8be3c0bec1484229458caad1aad083108f150f55)
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita 1](https://github.com/Janszczyrek/object_design/commit/8be3c0bec1484229458caad1aad083108f150f55)
+
+
+:x: 4.0 wymaganie 3
+
+:x: 4.5 wymaganie 4
+
+:x: 5.0 wymaganie 5
+
+
+https://github.com/user-attachments/assets/a30be393-8fc8-499f-81db-e5c76b6b6e52
+
+
 
